@@ -28,4 +28,9 @@ to complete this part we create forst of all dowload the docker-compose with thi
 
 then we add the file docker-compose.yml in the main directory, this file contain important informations used by docker-compose to run multiple containers.
 download docker-composer.yml
-**
+
+**https://raw.githubusercontent.com/asolee/Mid-term/main/docker-compose.yml**
+  
+ we set the correct build volume, in this way the portainer can acess directly to the VM1, and jupyter notebooks are saved in the host folder /work.
+  
+
