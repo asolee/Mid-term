@@ -19,3 +19,13 @@ in my case the command is:
 
 in case of permiss denied errors try to use this command to give permiss to the user
 **sudo chown -R user <host volume>  
+
+# docker-compose-yml
+
+to complete this part we create forst of all dowload the docker-compose with this command
+
+**sudo apt update && sudo apt install -y docker-compose**
+
+then we add the file docker-compose.yml in the main directory, this file contain important informations used by docker-compose to run multiple containers.
+download docker-composer.yml
+**
